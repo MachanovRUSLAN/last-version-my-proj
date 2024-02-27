@@ -1,0 +1,28 @@
+.counts-box {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.counts-box h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  .counts-box h1 {
+    font-size: 30px;
+  }
+  .counts-box p {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

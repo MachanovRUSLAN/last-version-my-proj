@@ -1,0 +1,50 @@
+.proPageBox {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.proPageBox h1 {
+  font-weight: 600;
+}
+.page-img {
+  padding: 0 20px;
+}
+.page-img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.page-content {
+  padding-left: 70px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.page-content select {
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.page-content h5 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.page-content h3 {
+  font-weight: 600;
+}
+.page-content .addButton {
+  margin-top: 20px;
+}
+.addButton {
+  font-size: 15px;
+  border-radius: 20px;
+  color: black;
+  font-weight: 600;
+  padding: 10px;
+  border: 1px solid rgb(134, 128, 128);
+  width: 100px;
+}

@@ -1,0 +1,94 @@
+.product-list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.content {
+  margin: 10px auto !important;
+}
+@media (max-width: 772px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .product-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .price-range-filters p {
+    width: 80px;
+    font-size: 15px;
+  }
+  .gender-filters p {
+    background-color: #ebeeef;
+    font-size: 15px;
+  }
+  .color-filters p {
+    font-size: 15px;
+    background-color: #ebeeef;
+    transition: all 0.4s ease-in;
+  }
+  .box {
+    margin: 0;
+  }
+}
+.box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box img {
+  width: 100%;
+  height: 100px;
+}
+.filterButtons {
+  margin-top: 50px;
+}
+@media (max-width: 992px) {
+  .filterButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+}
+
+.color-filters,
+.price-range-filters,
+.gender-filters {
+  padding: 10px;
+  margin: 10px;
+}
+.color-filters,
+.price-range-filters,
+.gender-filters p {
+  cursor: pointer;
+}
+.gender-filters p {
+  background-color: #ebeeef;
+}
+
+.price-range-filters p {
+  background-color: #ebeeef;
+  transition: all 0.4s ease-in;
+}
+.price-range-filters p:hover {
+  padding: 0 5px;
+  background-color: rgb(79, 80, 80);
+  color: #ebeeef;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.color-filters p {
+  background-color: #ebeeef;
+  transition: all 0.4s ease-in;
+}
+.color-filters p:hover {
+  padding: 0 5px;
+  background-color: rgb(79, 80, 80);
+  color: #ebeeef;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}

@@ -1,0 +1,16 @@
+.about-content h1 {
+  font-size: 45px;
+}
+.about-content p {
+  padding: 5px;
+  font-size: 13px;
+}
+@media (max-width: 772px) {
+  .about-content h1 {
+    padding: 5px;
+    font-size: 30px;
+  }
+}
+.about-content {
+  padding: 40px 20px;
+}

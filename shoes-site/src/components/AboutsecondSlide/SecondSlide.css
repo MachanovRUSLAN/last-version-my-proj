@@ -1,0 +1,16 @@
+.mySwiper-second {
+  width: 100%;
+  height: 300px;
+}
+.mySwiper-second .swiper-button-next {
+  display: none !important;
+}
+.mySwiper-second .swiper-button-prev {
+  display: none !important;
+}
+#root
+  > div.swiper.swiper-initialized.swiper-horizontal.mySwiper-second.swiper-backface-hidden
+  > div.swiper-wrapper
+  > div.swiper-slide.swiper-slide-active {
+  background-color: rgb(210, 207, 207);
+}

@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.suscribe-main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.design {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+}
+.design img {
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.design:hover img {
+  transform: scale(1.1);
+}
+.des-content {
+  padding-left: 20px;
+  position: absolute;
+}
+.des-content h1 {
+  font-weight: 700;
+}
+.des-content a {
+  color: black;
+  font-size: 13px;
+}
+.c-box {
+  background-color: #e8e8e8;
+}
+.des-content h6 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.suscribe h4 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.suscribe h5 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.input-box-2 {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.suscrb-input {
+  width: 200px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+}
+.suscrb-button {
+  color: #fff;
+  background: black;
+  margin-top: 20px;
+  width: 120px;
+  font-weight: 500;
+  border-radius: 30px;
+  font-size: 13px;
+  height: 35px;
+}
+.paperPlane {
+  padding-bottom: 10px;
+  font-size: 40px;
+  color: #212529;
+}
+.suscribe {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff !important;
+  border: 1px solid #cbcbcb;
+}
+@media (max-width: 992px) {
+  .suscribe {
+    padding: 5px 0;
+    text-align: center;
+    background-color: #fff !important;
+  }
+  .suscribe h5 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 772px) {
+  .suscribe {
+    margin-top: 10px !important;
+  }
+}

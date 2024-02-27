@@ -1,0 +1,29 @@
+.media-box {
+  padding: 10px;
+}
+.return {
+  width: 30px;
+  height: 35px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+button {
+  display: flex;
+}
+.previous1 {
+  padding: 5px;
+  position: absolute;
+  left: 0;
+}
+.next1 {
+  padding: 5px !important;
+  position: absolute;
+  right: 0;
+}

@@ -1,0 +1,30 @@
+.categ-button {
+  border: 1px solid rgb(2, 2, 2);
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  height: 30px;
+  transition: all 0.2s;
+}
+.categ-button:hover {
+  color: #fff;
+  background-color: rgb(53, 52, 52);
+}
+.button-box {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons {
+  margin: auto;
+}
+.buttons a {
+  text-decoration: none;
+  color: black;
+}

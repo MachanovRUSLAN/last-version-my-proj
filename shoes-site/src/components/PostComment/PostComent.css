@@ -1,0 +1,51 @@
+.Post-main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-box {
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+}
+.post-box h5 {
+  padding: 10px;
+  border: 1px solid black;
+  width: 170px;
+  border-radius: 20px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.post-box h5:hover {
+  background-color: black;
+  color: #fff;
+}
+.name-mail {
+  padding: 20px;
+}
+.name-mail input {
+  padding: 0 5px;
+  width: 300px;
+  height: 40px;
+  margin: 5px;
+}
+.area-box {
+  margin: auto;
+  display: flex;
+  width: 90%;
+}
+#area {
+  width: 100%;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .name-mail input {
+    width: 100%;
+  }
+  .post-box h5 {
+   
+    border-radius: 20px;
+    margin-left: 20px;
+   
+  }
+}

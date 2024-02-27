@@ -1,0 +1,142 @@
+.mySwiper {
+  width: 90% !important;
+  margin: auto;
+  height: 450px !important;
+}
+.swiper-wrapper > div.swiper-slide.swiper-slide-active {
+  width: 100%;
+  background-color: #6da5c0;
+  border-radius: 10px;
+}
+@media (max-width: 400px) {
+  .mySwiper {
+    height: 250px !important;
+  }
+  .f-img {
+    margin: auto !important;
+  }
+}
+.slide-img img {
+  width: 100%;
+  margin: auto;
+  height: 470px;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.f-img {
+  padding-bottom: 30px !important;
+  object-fit: contain !important;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slide-content h2 {
+  margin-left: 100px;
+  width: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #f5d7db;
+}
+.slide-content h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f5d7db;
+  font-weight: 600;
+}
+.slide-content p {
+  width: 300px;
+  margin-left: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  color: #041822;
+}
+.slidebutton {
+  margin-top: 10px;
+  margin-left: -60px;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-family: 700;
+  color: #f5d7db;
+  background-color: #041822;
+  border: none;
+}
+.slide {
+  margin: 20px auto;
+  width: 90%;
+  height: 100%;
+  display: flex;
+}
+
+.slide-content {
+  padding-bottom: 70px !important;
+  width: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .slide img {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 770px) {
+  .content-slide {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .swiper.swiper-fade {
+    height: 300px;
+  }
+  .slide-img img {
+    height: 350px;
+  }
+  .slide img {
+    width: 250px;
+    height: 250px;
+  }
+}
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next {
+  display: block !important;
+}
+.swiper-button-prev {
+  display: block !important;
+}

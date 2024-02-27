@@ -1,0 +1,43 @@
+.cart-box {
+  display: flex;
+  justify-content: center;
+  
+}
+.img-box-2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: 10px;
+}
+@media (max-width: 400px) {
+  .img-box-2 {
+    width: 250px;
+    height: 250px;
+  }
+}
+.img-box-2 img {
+  width: 100%;
+  transition: all 0.4s;
+}
+.img-box-2:hover img {
+  transform: scale(1.1);
+}
+.content-collect2 {
+  padding-left: 20px;
+  position: absolute;
+}
+.content-collect2 h3 {
+  font-weight: 700;
+}
+.content-collect2 a {
+  color: black;
+  font-size: 13px;
+}
+.content-collect2 h6 {
+  font-weight: 400;
+  font-size: 12px;
+}
